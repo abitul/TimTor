@@ -1,0 +1,119 @@
+page-home {
+    ion-card.card.card-md {
+        margin: auto !important;
+        width: auto !important;
+    }
+    ion-card.card.card-ios {
+        margin: auto !important;
+        width: auto !important;
+    }
+    .card-background-page {
+        ion-card {
+            position: relative;
+            text-align: center;
+        }
+        .card-title {
+            position: absolute;
+            top: 36%;
+            font-size: 2.0em;
+            width: 100%;
+            font-weight: bold;
+            color: #fff;
+        }
+        .card-subtitle {
+            font-size: 16px;
+            text-align: left;
+            margin-left: 25px;
+            margin-right: 25px;
+            position: absolute;
+            top: 52%;
+            color: #fff;
+        }
+        .image-card {
+            min-height: 200px;
+            max-height: 200px;
+        }
+    }
+    .toolbar-background {
+        background: #fff;
+        border-color: transparent;
+    }
+    .slide-zoom {
+        height: 100%;
+        width: 100%;
+    }
+    .slide-height {
+        height: 50%;
+    }
+    .slide-title {
+        font-size: 24px;
+        text-align: left;
+        margin-left: 25px;
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+    }
+    .slide-price {
+        font-size: 16px;
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        position: absolute;
+        top: 55%;
+        color: #fff;
+        font-weight: bold;
+    }
+    .slide-image {
+        min-height: 100%;
+        min-width: 100%;
+    }
+    b {
+        font-weight: 100;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #60646B;
+        b {
+            color: #000000;
+        }
+    }
+    .mTOp0 {
+        margin-top: 0px;
+    }
+    .card-item-list {
+        height: 80px;
+        padding-left: 0px;
+    }
+    .img-news {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .ion-thumbnail-custom {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .ion-item-custom {
+        padding-left: 0px !important;
+    }
+    .font-custom {
+        padding: 5px;
+        white-space: nowrap;
+        top: 4px;
+        color: black;
+        white-space: nowrap;
+    }
+    .date-font {
+        top: 25px;
+        font-size: 10px;
+    }
+    .font-price {
+        padding: 5px;
+        top: 4px;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}

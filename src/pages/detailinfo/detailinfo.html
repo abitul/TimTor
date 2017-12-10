@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <marquee>{{title}}</marquee>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="cards-bg">
+
+  <ion-card>
+
+    <img src="{{image}}" />
+
+    <ion-card-content>
+      <ion-card-title>
+        {{title}}
+      </ion-card-title>
+      <p>
+        {{description}}
+      </p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='star'></ion-icon>
+          Favorite
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='chatbubbles'></ion-icon>
+          Comment
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='share-alt'></ion-icon>
+          Share
+        </button>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Demak's Motor</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="card-background-page">
+    <ion-slides autoplay="1000" loop="true" speed="1000" class="slide-height" effect="coverflow" pager>
+        <ion-slide *ngFor="let nProduct of newProduct">
+            <img [src]="nProduct.image" class="slide-image" imageViewer/>
+            <p class="slide-price" [innerHTML]="nProduct.price"></p>
+            <p class="slide-title" [innerHTML]="nProduct.title"></p>
+        </ion-slide>
+    </ion-slides>
+    <ion-grid>
+        <ion-row responsive-sm>
+            <ion-col *ngFor="let aProduct of allProduct;let i=index" (click)="DetailInfo($event, aProduct)" col-6>
+                <ion-card>
+                    <img class="image-card" src="{{aProduct.image}}" />
+                    <p class="font-custom">{{aProduct.title}}</p>
+                    <p class="font-price">{{aProduct.price}}</p>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
